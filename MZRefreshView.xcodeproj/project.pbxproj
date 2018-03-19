@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		170B8FDE205EBD66006CE49E /* MZRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170B8FDB205EBD65006CE49E /* MZRefreshHeader.swift */; };
+		170B8FDF205EBD66006CE49E /* UIView+frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170B8FDC205EBD65006CE49E /* UIView+frame.swift */; };
+		170B8FE0205EBD66006CE49E /* MZConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170B8FDD205EBD65006CE49E /* MZConst.swift */; };
 		17457666205E3A10008CF14C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17457665205E3A10008CF14C /* AppDelegate.swift */; };
 		17457668205E3A10008CF14C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17457667205E3A10008CF14C /* ViewController.swift */; };
 		1745766B205E3A10008CF14C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17457669205E3A10008CF14C /* Main.storyboard */; };
@@ -14,8 +17,6 @@
 		17457670205E3A10008CF14C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1745766E205E3A10008CF14C /* LaunchScreen.storyboard */; };
 		1745767B205E3A10008CF14C /* MZRefreshViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745767A205E3A10008CF14C /* MZRefreshViewTests.swift */; };
 		17457686205E3A10008CF14C /* MZRefreshViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17457685205E3A10008CF14C /* MZRefreshViewUITests.swift */; };
-		17457694205E475F008CF14C /* MZRefreshHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17457693205E475F008CF14C /* MZRefreshHeader.swift */; };
-		17457696205E47B2008CF14C /* UIView+frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17457695205E47B2008CF14C /* UIView+frame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		170B8FDB205EBD65006CE49E /* MZRefreshHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZRefreshHeader.swift; sourceTree = "<group>"; };
+		170B8FDC205EBD65006CE49E /* UIView+frame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+frame.swift"; sourceTree = "<group>"; };
+		170B8FDD205EBD65006CE49E /* MZConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MZConst.swift; sourceTree = "<group>"; };
 		17457662205E3A10008CF14C /* MZRefreshView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MZRefreshView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17457665205E3A10008CF14C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17457667205E3A10008CF14C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,8 +53,6 @@
 		17457681205E3A10008CF14C /* MZRefreshViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZRefreshViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17457685205E3A10008CF14C /* MZRefreshViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZRefreshViewUITests.swift; sourceTree = "<group>"; };
 		17457687205E3A10008CF14C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		17457693205E475F008CF14C /* MZRefreshHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MZRefreshHeader.swift; sourceTree = "<group>"; };
-		17457695205E47B2008CF14C /* UIView+frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+frame.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		170B8FDA205EBD65006CE49E /* MZRefreshView */ = {
+			isa = PBXGroup;
+			children = (
+				170B8FDB205EBD65006CE49E /* MZRefreshHeader.swift */,
+				170B8FDC205EBD65006CE49E /* UIView+frame.swift */,
+				170B8FDD205EBD65006CE49E /* MZConst.swift */,
+			);
+			path = MZRefreshView;
+			sourceTree = "<group>";
+		};
 		17457659205E3A10008CF14C = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +113,9 @@
 		17457664205E3A10008CF14C /* MZRefreshView */ = {
 			isa = PBXGroup;
 			children = (
+				170B8FDA205EBD65006CE49E /* MZRefreshView */,
 				17457665205E3A10008CF14C /* AppDelegate.swift */,
 				17457667205E3A10008CF14C /* ViewController.swift */,
-				17457693205E475F008CF14C /* MZRefreshHeader.swift */,
-				17457695205E47B2008CF14C /* UIView+frame.swift */,
 				17457669205E3A10008CF14C /* Main.storyboard */,
 				1745766C205E3A10008CF14C /* Assets.xcassets */,
 				1745766E205E3A10008CF14C /* LaunchScreen.storyboard */,
@@ -265,9 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17457696205E47B2008CF14C /* UIView+frame.swift in Sources */,
+				170B8FDF205EBD66006CE49E /* UIView+frame.swift in Sources */,
 				17457668205E3A10008CF14C /* ViewController.swift in Sources */,
-				17457694205E475F008CF14C /* MZRefreshHeader.swift in Sources */,
+				170B8FDE205EBD66006CE49E /* MZRefreshHeader.swift in Sources */,
+				170B8FE0205EBD66006CE49E /* MZConst.swift in Sources */,
 				17457666205E3A10008CF14C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

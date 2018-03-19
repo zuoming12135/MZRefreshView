@@ -10,12 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MZRefreshView/MZRefreshHeader.swift"
-            timestampString = "543063981.5547349"
+            timestampString = "543066105.488013"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "117"
-            endingLineNumber = "117"
-            landmarkName = "setState(_:)"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "scrollViewContentOffsetChanged()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
